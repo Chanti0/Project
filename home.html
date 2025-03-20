@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Prediction System</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="{{ url_for('register') }}">Register</a>
+        <a href="{{ url_for('login') }}">Login</a>
+        <a href="{{ url_for('predict') }}">Predict Disease</a>
+    </nav>
+    
+    <div class="container">
+        <h1>Welcome to Disease Prediction System</h1>
+        <p>Enter your symptoms and get an accurate prediction along with treatment suggestions.</p>
+        
+        <img src="{{ url_for('static', filename='images/healthcare.jpg') }}" alt="Healthcare Image" class="banner">
+    </div>
+</body>
+</html>

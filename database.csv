@@ -1,0 +1,6 @@
+id,disease,symptoms,medicines,diet,specialist
+1,Flu,"fever,cough,body ache","Paracetamol, Cough Syrup","Drink warm fluids, Rest","General Physician"
+2,Diabetes,"frequent urination,excessive thirst,weight loss","Metformin, Insulin","Low sugar diet, Regular exercise",Endocrinologist
+3,Hypertension,"high blood pressure,headache,dizziness","Amlodipine, Lisinopril","Low salt diet, Regular exercise",Cardiologist
+4,Asthma,"shortness of breath,wheezing,cough","Inhalers, Montelukast","Avoid allergens, Breathing exercises",Pulmonologist
+5,Migraine,"severe headache,nausea,sensitivity to light","Painkillers, Triptans","Stay hydrated, Avoid triggers",Neurologist
